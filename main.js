@@ -6,6 +6,7 @@ pageBody.insertBefore(main, scriptTag);
 var header = document.createElement('h1');
 main.appendChild(header);
 var headerText = document.createTextNode('This is the header text!');
+header.appendChild(headerText);
 
 var unorderedList = document.createElement('ul');
 main.appendChild(unorderedList);
@@ -13,3 +14,4 @@ main.appendChild(unorderedList);
 var listItem = document.createElement('li');
 unorderedList.appendChild(listItem);
 var listItemText = document.createTextNode('This is the list item');
+listItem.appendChild(listItemText);
