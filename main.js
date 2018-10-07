@@ -21,3 +21,4 @@ listItem.appendChild(listItemText);
 
 var link = document.createElement('a');
 var linkListItem = document.createElement('li');
+linkListItem.appendChild(link);
