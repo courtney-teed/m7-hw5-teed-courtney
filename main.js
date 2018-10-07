@@ -20,6 +20,7 @@ var listItemText = document.createTextNode('This is the list item');
 listItem.appendChild(listItemText);
 
 var link = document.createElement('a');
+link.href = 'https://www.google.com';
 var linkListItem = document.createElement('li');
 linkListItem.appendChild(link);
 unorderedList.appendChild(linkListItem);
