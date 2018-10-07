@@ -8,3 +8,6 @@ main.appendChild(header);
 
 var unorderedList = document.createElement('ul');
 main.appendChild(unorderedList);
+
+var listItem = document.createElement('li');
+unorderedList.appendChild(listItem);
