@@ -29,3 +29,4 @@ var linkText = document.createTextNode('This is my link');
 link.appendChild(linkText);
 
 var notLinkListItem = linkListItem.previousElementSibling;
+notLinkListItem.classList.add('orange');
