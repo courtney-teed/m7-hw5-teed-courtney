@@ -18,3 +18,5 @@ var listItem = document.createElement('li');
 unorderedList.appendChild(listItem);
 var listItemText = document.createTextNode('This is the list item');
 listItem.appendChild(listItemText);
+
+var link = document.createElement('a');
