@@ -7,6 +7,7 @@ var header = document.createElement('h1');
 main.appendChild(header);
 var headerText = document.createTextNode('This is the header text!');
 header.appendChild(headerText);
+header.classList.add('blue');
 
 var unorderedList = document.createElement('ul');
 main.appendChild(unorderedList);
